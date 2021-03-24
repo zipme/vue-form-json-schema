@@ -9,6 +9,7 @@ const production = {
   mode: 'production',
   optimization: {
     minimize: true,
+    usedExports: true,
   },
 };
 
